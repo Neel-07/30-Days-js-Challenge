@@ -50,5 +50,5 @@ console.log("The reassigned value of val is ",val);
 
 const val_1 = 98;
 console.log("The value of val_1 is",val_1);
-val_1 = 100; // This will throw a TypeError: Assignment to constant variable.
-console.log("The value of val_1 is",val_1);
+// val_1 = 100; // This will throw a TypeError: Assignment to constant variable.
+// console.log("The value of val_1 is",val_1);
