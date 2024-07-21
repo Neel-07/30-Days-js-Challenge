@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    padding:2vw;
+}
+
+.container{
+    border: 5px solid black;
+    margin: 20px;
+    background-color: aqua;
+    height: 200px;
+    width:200px;
+}
+ 
+.border-rad{
+    border-radius: 10%;
+}
+.space{
+    margin:20px;
+}
+button{
+    margin:20px;
+}
