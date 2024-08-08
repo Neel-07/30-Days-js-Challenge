@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Manager</h1>
+            <p id="current-date"></p>
+        </header>
+        <main>
+            <section class="task-input">
+                <form id="task-form">
+                    <div class="input-group">
+                        <label for="task-title">Task Title</label>
+                        <input type="text" id="task-title" name="title" placeholder="Enter task title" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="task-desc">Description</label>
+                        <textarea id="task-desc" name="description" placeholder="Enter task description"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label for="task-date">Due Date</label>
+                        <input type="date" id="task-date" name="dueDate" required>
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="btn add-task-btn">Add Task</button>
+                    </div>
+                </form>
+            </section>
+            <section class="task-list">
+                <h2>Your Tasks</h2>
+                <ul id="tasks">
+                    
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
