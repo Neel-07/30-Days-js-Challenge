@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Apple iPhone 12",
+        "price": 799.99,
+        "description": "The latest iPhone with A14 Bionic chip.",
+        "imageUrl": "https://via.placeholder.com/200?txt=iPhone+12"
+    },
+    {
+        "name": "Samsung Galaxy S21",
+        "price": 699.99,
+        "description": "The latest Samsung phone with Exynos 2100.",
+        "imageUrl": "https://via.placeholder.com/200?text=Galaxy+S21"
+    },
+    {
+        "name": "Google Pixel 5",
+        "price": 599.99,
+        "description": "Google's flagship phone with pure Android.",
+        "imageUrl": "https://via.placeholder.com/200?text=Pixel+5"
+    },
+    {
+        "name": "Sony WH-1000XM4",
+        "price": 349.99,
+        "description": "Industry-leading noise-cancelling headphones.",
+        "imageUrl": "https://via.placeholder.com/200?text=Sony+WH-1000XM4"
+    }
+]

@@ -1,0 +1,128 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.checkout-button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left:38%;
+}
+
+.checkout-button:hover {
+    background-color: #555;
+}
+
+/* Cart and Checkout Styles */
+#cart-items {
+    padding: 20px;
+}
+
+.cart-item img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.cart-item span {
+    flex: 1;
+}
+
+.cart-item button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0px 9px;
+    border-radius: 10px;
+    /* width:30%; */
+}
+
+.cart-item button:hover {
+    background-color: #c0392b;
+}
+
+#checkout-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#checkout-form label {
+    margin-top: 10px;
+}
+
+#checkout-form input {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#checkout-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#checkout-form button:hover {
+    background-color: #555;
+}
+
+#confirmation-message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: green;
+}
