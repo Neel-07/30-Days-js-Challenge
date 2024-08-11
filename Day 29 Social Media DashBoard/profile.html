@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoSocial - Profile</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Profile</h1>
+        <form id="profile-form">
+            <img src="images/profile-default.svg" alt="Profile Picture" id="profile-pic" class="profile-pic">
+            <input type="file" id="profile-pic-input" accept="image/*">
+            <input type="text" id="profile-username" placeholder="Username" required>
+            <input type="email" id="profile-email" placeholder="Email" required>
+            <button type="submit" class="btn">Update Profile</button>
+        </form>
+    </div>
+    <script src="js/profile.js"></script>
+</body>
+</html>

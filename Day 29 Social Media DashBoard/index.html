@@ -3,31 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Media Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <title>EchoSocial - Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="login-section">
-        <h2>Login</h2>
-        <form id="login-form">
-            <input type="text" id="username" placeholder="Username" required>
-            <input type="password" id="password" placeholder="Password" required>
-            <button type="submit">Login</button>
-        </form>
+    <div class="container">
+        <div class="image-section">
+            <img src="images/logo.png" alt="Social Media Demo" class="demo-image">
+        </div>
+        <div class="button-section">
+            <h1>Welcome to <span class="echoSocial">EchoSocial</span></h1>
+            <a href="register.html" class="btn">Sign Up</a>
+            <a href="login.html" class="btn">Login</a>
+        </div>
     </div>
-
-    <div id="dashboard" style="display:none;">
-        <h2>Post Something</h2>
-        <form id="post-form">
-            <input type="text" id="post-username" placeholder="Username" required>
-            <input type="text" id="post-text" placeholder="What's on your mind?" required>
-            <input type="file" id="post-image">
-            <button type="submit">Post</button>
-        </form>
-
-        <div id="post-feed"></div>
-    </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
